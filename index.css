@@ -5,13 +5,16 @@ body {
 
 @media (max-width: 575.98px) {
 
+
     .containerDetail {
         display: flex;
         flex-direction: column;
         justify-content: right;
         align-items: center;
     }
-
+.containerDetail>div>h1{
+    font-family: Pacifico;
+}
     .containerDetail>div:nth-child(1) {
         max-width: 86%;
     }
@@ -19,6 +22,7 @@ body {
     .containerDetail>div:nth-child(2) {
         width: 100%;
         text-align: center;
+        font-family: Montserrat;
     }
 
     .containerDetail>div:nth-child(1)>img {
