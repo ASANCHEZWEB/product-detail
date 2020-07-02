@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+}
+
+
+@media (max-width: 575.98px) {
+
+    .containerDetail {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .containerDetail>div:nth-child(1) {
+        max-width: 86%;
+    }
+
+    .containerDetail>div:nth-child(2) {
+        width: 100%;
+        text-align: center;
+    }
+
+    .containerDetail>div:nth-child(1)>img {
+        width: 100%;
+    }
+.buttonsCart{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 28px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.buttonIzq{
+    border-radius: 15px 0px 0px 15px;
+    color: green;
+    text-align: center;
+    font-size: 16px;
+    background-color: greenyellow;
+    width: 14%;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    text-decoration: none;
+    outline: none;
+}
+.inputButtons{
+    max-width: 90px;
+    text-align: center;
+    border-width: thin;
+    border-left: none rgb(255, 235, 0);
+    border-right: none rgb(255, 235, 0);
+    border-color: rgb(255, 235, 0);
+    border-top: 1px solid rgb(255, 235, 0);
+}
+.buttonDer{
+    border-radius: 0px 15px 15px 0px;
+    color: green;
+    text-align: center;
+    font-size: 16px;
+    background-color: greenyellow;
+    width: 14%;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    text-decoration: none;
+    outline: none;
+}
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+@media (min-width: 1200px) {}
