@@ -28,7 +28,7 @@ body {
     display: flex;
     -webkit-box-pack: center;
     justify-content: center;
-    height: 28px;
+    height: 35px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
